@@ -50,10 +50,11 @@ if prompt_yes_no "Do you want to update snap?"; then
 fi
 
 # Code editors
-if prompt_yes_no "Do you want to install code editors (VS Code, PhpStorm, dbgate)?"; then
+if prompt_yes_no "Do you want to install code editors (VS Code, PhpStorm with jetbrains mono front, dbgate)?"; then
     sudo snap install code --classic
     sudo snap install phpstorm --classic
     sudo snap install dbgate
+    sudo apt install fonts-jetbrains-mono
     check_command
 fi
 
