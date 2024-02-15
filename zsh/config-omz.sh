@@ -16,3 +16,6 @@ for plugin in "${plugins[@]}"; do
 done
 
 echo "Oh My Zsh and plugins installed!"
+source ~/.zshrc
+omz update
+
