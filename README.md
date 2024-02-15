@@ -61,7 +61,7 @@ The installation script (`install.sh`) offers a set of options to install and co
 
 ## Contribution
 
-Feel free to contribute by adding more scripts or improving existing ones. Follow the [contribution guidelines](CONTRIBUTING.md).
+Feel free to contribute by adding more scripts or improving existing ones. 
 
 ## License
 
