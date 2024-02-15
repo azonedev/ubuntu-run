@@ -21,7 +21,8 @@ To use these scripts, follow these steps:
 3. Run the installation script:
 
     ```bash
-    bash install.sh
+    chmod +x install.sh
+    ./install.sh
     ```
 
 ## Usage
