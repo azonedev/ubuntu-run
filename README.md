@@ -59,10 +59,13 @@ The installation script (`install.sh`) offers a set of options to install and co
 
 - Reboot your system after completing the installation for some changes to take effect.
 
-## Contribution
+### Customization
+Feel free to customize the `install.sh` script according to your specific needs. You can comment out or add additional installation commands to tailor the setup to your preferences.
 
-Feel free to contribute by adding more scripts or improving existing ones. 
+### Contributing
+If you have suggestions for improvements or new software/packages to be added, feel free to open an issue or submit a pull request. Contributions are welcome!
 
-## License
+### License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Happy coding! 🚀
