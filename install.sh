@@ -110,6 +110,13 @@ if prompt_yes_no "Do you want to vlc player?"; then
     check_command
 fi
 
+#  GNOME browser connector
+if prompt_yes_no "Do you want to install GNOME chrome connector?"; then
+	sudo apt install chrome-gnome-shell
+	check_command
+fi
+ 
+
 # TODO: Add scripts  hrere ...
 
 
