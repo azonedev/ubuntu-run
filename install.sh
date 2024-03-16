@@ -119,6 +119,18 @@ fi
 
 # TODO: Add scripts  hrere ...
 
+#  TablePlus
+if prompt_yes_no "Do you want to install TablePlus?"; then
+	sudo apt install tableplus
+	check_command
+fi
+
+#  RocketChat
+if prompt_yes_no "Do you want to install RocketChat?"; then
+	sudo snap install rocketchat-desktop
+	check_command
+fi
+
 
 # Don't add new scripts below this
 
