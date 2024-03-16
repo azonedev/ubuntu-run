@@ -51,7 +51,11 @@ The installation script (`install.sh`) offers a set of options to install and co
 
 10. **VLC Player**: Installs VLC media player.
 
-11. **Docker and Docker-Compose**: Installs Docker and Docker-Compose.
+11. **TablePlus**: Install Table Plus.
+
+12. **RocketChat**: Install Rocket Chat.
+
+13. **Docker and Docker-Compose**: Installs Docker and Docker-Compose.
 
 ### Notes
 
