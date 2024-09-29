@@ -86,6 +86,12 @@ if prompt_yes_no "Do you want to install Go?"; then
     check_command
 fi
 
+#install goland
+if prompt_yes_no "Do you want to install Goland?"; then
+    sudo snap install goland --classic
+    check_command
+fi
+
 # Download Apployee
 if prompt_yes_no "Do you want to download Apployee?"; then
     wget https://cdn.apploye.com/apploye-desktop-app/linux/x64/Apploye-3.1.12.AppImage -O apploye.appimage
